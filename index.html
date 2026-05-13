@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate One Pager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero" id="home">
+        <nav class="navbar">
+            <div class="brand">ChocoWave</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to the Chocolate Experience</h1>
+            <p>A rich, creamy one-page website for your brand, fully responsive and delightful.</p>
+            <a href="#gallery" class="hero-button">Explore Gallery</a>
+        </div>
+    </header>
+
+    <section class="slider" id="slider">
+        <div class="slider-track">
+            <article class="slide active">
+                <div>
+                    <h2>Handcrafted</h2>
+                    <p>Every piece is made with care and smooth chocolate flavor.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1612044341046-86da85f5e6ee?auto=format&fit=crop&w=900&q=80" alt="Chocolate bar">
+            </article>
+            <article class="slide">
+                <div>
+                    <h2>Delicious Variety</h2>
+                    <p>From classic dark to caramel, our selection satisfies every craving.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Chocolate assortment">
+            </article>
+            <article class="slide">
+                <div>
+                    <h2>Perfect Gifts</h2>
+                    <p>Impress with premium chocolate gifts wrapped in style.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=900&q=80" alt="Chocolate gifts">
+            </article>
+        </div>
+        <div class="slider-controls">
+            <button class="slide-btn prev">Prev</button>
+            <button class="slide-btn next">Next</button>
+        </div>
+    </section>
+
+    <main>
+        <section class="about" id="about">
+            <div class="section-header">
+                <span>About Us</span>
+                <h2>We make life sweeter</h2>
+            </div>
+            <div class="about-grid">
+                <div>
+                    <p>ChocoWave blends tradition and modern taste to deliver premium chocolate experiences. Our creations are crafted from rich cocoa, silky textures, and unforgettable aromas.</p>
+                </div>
+                <div class="about-cards">
+                    <article>
+                        <h3>Premium Ingredients</h3>
+                        <p>Only the finest cocoa and natural flavors are part of our recipe.</p>
+                    </article>
+                    <article>
+                        <h3>Artisan Craft</h3>
+                        <p>Each piece is carefully formed by skilled chocolatiers.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="section-header">
+                <span>Gallery</span>
+                <h2>Beautiful chocolate inspirations</h2>
+            </div>
+            <div class="gallery-grid">
+                <figure><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80" alt="Chocolate dessert"><figcaption>Decadent Dessert</figcaption></figure>
+                <figure><img src="https://images.unsplash.com/photo-1521305908004-4a5d0b4d6b23?auto=format&fit=crop&w=600&q=80" alt="Chocolate truffles"><figcaption>Chocolate Truffles</figcaption></figure>
+                <figure><img src="https://images.unsplash.com/photo-1516687405459-8e8e1f5b8f0d?auto=format&fit=crop&w=600&q=80" alt="Chocolate bars"><figcaption>Rich Chocolate Bars</figcaption></figure>
+                <figure><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80" alt="Chocolate pralines"><figcaption>Artisan Pralines</figcaption></figure>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-header">
+                <span>Contact</span>
+                <h2>Let's connect</h2>
+            </div>
+            <div class="contact-grid">
+                <div>
+                    <p>Have a question or want to order custom chocolate? Reach out and we’ll make your moment memorable.</p>
+                    <ul>
+                        <li>Email: hello@chocowave.com</li>
+                        <li>Phone: +1 234 567 890</li>
+                        <li>Location: Cocoa Street, Sweet City</li>
+                    </ul>
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 ChocoWave. Designed with a warm chocolate palette.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
